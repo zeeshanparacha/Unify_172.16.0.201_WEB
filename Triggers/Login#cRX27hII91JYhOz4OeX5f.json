@@ -1,0 +1,58 @@
+{
+  "id": "4_JEDc-xXBXiSg-UYIOT2",
+  "_id": "cRX27hII91JYhOz4OeX5f",
+  "projectId": "63ef746490c5800428f84e7b",
+  "gitBranchName": "master",
+  "name": "Login",
+  "old_name": "Login",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/login",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": false,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "username",
+              "value": "username"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "password",
+              "value": "password"
+            }
+          ],
+          "baseURL": "65021133551300319438a03d",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.tzjj0o0eh5qSTZR7rizpRcQOvdC4WRfG",
+  "updatedAt": "9/14/2023",
+  "createdAt": "9/14/2023",
+  "createdBy": "zeeshan",
+  "updatedBy": "zeeshan"
+}
